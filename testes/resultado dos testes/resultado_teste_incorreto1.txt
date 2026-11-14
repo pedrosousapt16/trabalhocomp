@@ -1,0 +1,7 @@
+Linha 1: Erro lexical no candidato 'LIGARX'
+Linha 2: Erro lexical no candidato 'ligar'
+Linha 3: Erro lexical no candidato 'EST-AA001'
+Linha 4: Erro lexical no candidato 'EST-A101'
+Linha 5: Erro lexical no candidato 'EST-aa01'
+Linha 6: Erro lexical no candidato '012'
+Tokens: 0 Erros lexicais: 6

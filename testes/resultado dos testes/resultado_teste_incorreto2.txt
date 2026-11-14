@@ -1,0 +1,5 @@
+Linha 1: Erro lexical no candidato '@'
+Linha 2: Erro lexical no candidato '$'
+Linha 3: Erro lexical no candidato '-15'
+Linha 4: Erro lexical no candidato 'g6HUMIDADE2'
+Tokens: 0 Erros lexicais: 4

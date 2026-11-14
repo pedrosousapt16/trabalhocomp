@@ -1,0 +1,7 @@
+1 MAIOR >
+1 MENOR <
+2 MAIOR_IGUAL >=
+2 MENOR_IGUAL <=
+3 IGUAL ==
+3 DIFERENTE !=
+Tokens: 6 Erros lexicais: 0
