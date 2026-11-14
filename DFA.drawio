@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="4Mye7jMFAZTkPP20zk03">
+    <mxGraphModel dx="1352" dy="752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="titulo" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontStyle=1;" value="AFD — Reconhecimento de Identificadores de Estufa (EST-[A-Z]{2}[0-9]{2})" vertex="1">
+          <mxGeometry height="30" width="680" x="60" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="start_arrow" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;strokeWidth=1.6;fontSize=11;fontStyle=2;verticalAlign=bottom;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="q0" value="início">
+          <mxGeometry relative="1" x="-0.2" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="60" y="95" as="sourcePoint" />
+            <mxPoint x="130" y="95" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="q0" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q0" vertex="1">
+          <mxGeometry height="56" width="56" x="130" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="q1" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q1" vertex="1">
+          <mxGeometry height="56" width="56" x="270" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="q2" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q2" vertex="1">
+          <mxGeometry height="56" width="56" x="410" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="q3" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q3" vertex="1">
+          <mxGeometry height="56" width="56" x="550" y="67" as="geometry" />
+        </mxCell>
+        <mxCell id="t01" edge="1" parent="1" source="q0" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q1" value="&#39;E&#39;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t12" edge="1" parent="1" source="q1" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q2" value="&#39;S&#39;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t23" edge="1" parent="1" source="q2" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q3" value="&#39;T&#39;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q4" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q4" vertex="1">
+          <mxGeometry height="56" width="56" x="130" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="q5" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q5" vertex="1">
+          <mxGeometry height="56" width="56" x="270" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="q6" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q6" vertex="1">
+          <mxGeometry height="56" width="56" x="410" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="q7" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q7" vertex="1">
+          <mxGeometry height="56" width="56" x="550" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="q8" parent="1" style="ellipse;shape=doubleEllipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;" value="q8" vertex="1">
+          <mxGeometry height="56" width="56" x="690" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="t34" edge="1" parent="1" source="q3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.6;fontSize=13;fontStyle=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;labelBackgroundColor=default;" target="q4" value="&#39;-&#39;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="578" y="165" />
+              <mxPoint x="158" y="165" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t45" edge="1" parent="1" source="q4" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q5" value="[A-Z]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t56" edge="1" parent="1" source="q5" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q6" value="[A-Z]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t67" edge="1" parent="1" source="q6" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q7" value="[0-9]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t78" edge="1" parent="1" source="q7" style="edgeStyle=none;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;labelBackgroundColor=default;" target="q8" value="[0-9]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="q_rej" parent="1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;strokeWidth=1.8;fontSize=13;fontStyle=1;dashed=1;" value="q_rej" vertex="1">
+          <mxGeometry height="58" width="58" x="130" y="345" as="geometry" />
+        </mxCell>
+        <mxCell id="loop_rej" edge="1" parent="1" source="q_rej" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=1.6;fontSize=12;fontStyle=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;labelBackgroundColor=default;" target="q_rej" value="∀ c ∈ Σ">
+          <mxGeometry relative="1" x="0.1" y="28" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="225" y="360" />
+              <mxPoint x="225" y="389" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nota_box" parent="1" style="rounded=1;whiteSpace=wrap;html=1;align=left;verticalAlign=middle;spacingLeft=12;spacingRight=10;strokeWidth=1.2;dashed=1;fontSize=11.5;" value="&lt;b&gt;Convenção de Rejeição e Alfabeto:&lt;/b&gt;&lt;br&gt;• Qualquer transição não explicitada a partir de &lt;i&gt;q0..q8&lt;/i&gt; (incluindo símbolos extra após &lt;i&gt;q8&lt;/i&gt;, ex.: &lt;code&gt;EST-AA001&lt;/code&gt;) transita para o estado poço &lt;b&gt;q_rej&lt;/b&gt; (não final).&lt;br&gt;• &lt;b&gt;Estado inicial:&lt;/b&gt; q0 &amp;nbsp;|&amp;nbsp; &lt;b&gt;Estado final:&lt;/b&gt; F = {q8}&lt;br&gt;• &lt;b&gt;Alfabeto (Σ):&lt;/b&gt;&amp;nbsp;{a-z, A-Z, 0-9, _, -}" vertex="1">
+          <mxGeometry height="88" width="471" x="275" y="330" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
