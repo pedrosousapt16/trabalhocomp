@@ -27,7 +27,7 @@ void print_erro(const char* lexema) {
  */
 ALGARISMO   [0-9]
 LETRA_MAIUS [A-Z]
-ALFANUM_EXT [a-zA-Z0-9_-]
+ALFANUM_EXT [a-zA-Z0-9\_\-]
 
 %%
 
