@@ -1,0 +1,3 @@
+REPETIR(2) {
+    SE (HUMIDADE(1) < 30) { REGAR(1, 10); } SENAO { ESPERAR(20); }
+}

@@ -1,0 +1,2 @@
+#Este ficheiro é para testar  LIGAR(EST-RT78);
+# ABRIR()
