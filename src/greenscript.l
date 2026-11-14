@@ -19,9 +19,7 @@ void print_erro(const char* lexema) {
 
 %option noyywrap
 
-/* 
- * DEFINIÇÃO DE MACROS (Conceito da Ficha 3)
- */
+
 ALGARISMO   [0-9]
 LETRA_MAIUS [A-Z]
 ALFANUM_EXT [a-zA-Z0-9\_\-]
