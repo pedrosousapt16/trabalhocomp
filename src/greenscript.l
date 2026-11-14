@@ -7,7 +7,7 @@ int num_tokens = 0;
 int num_erros = 0;
 
 void print_token(const char* categoria, const char* lexema) {
-    printf("%d %s\n%s\n", num_linhas, categoria, lexema);
+    printf("%d %s %s\n", num_linhas, categoria, lexema);
     num_tokens++;
 }
 
