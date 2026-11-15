@@ -2,4 +2,10 @@ Linha 1: Erro lexical no candidato '@'
 Linha 2: Erro lexical no candidato '$'
 Linha 3: Erro lexical no candidato '-15'
 Linha 4: Erro lexical no candidato 'g6HUMIDADE2'
-Tokens: 0 | Erros lexicais: 4
+Linha 5: Erro lexical no candidato '='
+Linha 5: Erro lexical no candidato '!'
+6 MENOR_IGUAL <=
+Linha 6: Erro lexical no candidato '='
+7 MAIOR_IGUAL >=
+Linha 7: Erro lexical no candidato '='
+Tokens: 2 | Erros lexicais: 8
