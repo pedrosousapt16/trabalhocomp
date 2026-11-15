@@ -30,4 +30,4 @@
 2 PONTO_VIRG ;
 2 FECHA_CHAVETA }
 3 FECHA_CHAVETA }
-Tokens: 32 Erros lexicais: 0
+Tokens: 32 | Erros lexicais: 0

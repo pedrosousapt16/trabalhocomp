@@ -87,7 +87,7 @@ int main(int argc, char **argv) {
 
     yylex();
 
-    printf("Tokens: %d Erros lexicais: %d\n", num_tokens, num_erros);
+    printf("Tokens: %d | Erros lexicais: %d\n", num_tokens, num_erros);
 
     if (argc > 1) {
         fclose(yyin);

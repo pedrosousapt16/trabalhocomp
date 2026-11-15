@@ -22,4 +22,4 @@
 5 FECHA_PAR )
 5 PONTO_VIRG ;
 6 FECHA_CHAVETA }
-Tokens: 24 Erros lexicais: 0
+Tokens: 24 | Erros lexicais: 0

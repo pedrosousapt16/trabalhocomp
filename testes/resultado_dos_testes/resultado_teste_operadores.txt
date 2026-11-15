@@ -4,4 +4,4 @@
 2 MENOR_IGUAL <=
 3 IGUAL ==
 3 DIFERENTE !=
-Tokens: 6 Erros lexicais: 0
+Tokens: 6 | Erros lexicais: 0

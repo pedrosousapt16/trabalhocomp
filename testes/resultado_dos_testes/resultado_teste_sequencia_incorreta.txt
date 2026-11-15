@@ -11,4 +11,4 @@
 2 ID_ESTUFA EST-ZZ99
 2 IGUAL ==
 2 MENOR_IGUAL <=
-Tokens: 13 Erros lexicais: 0
+Tokens: 13 | Erros lexicais: 0

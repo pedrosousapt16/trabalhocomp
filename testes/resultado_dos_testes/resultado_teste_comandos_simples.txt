@@ -23,4 +23,4 @@
 5 INTEIRO 15
 5 FECHA_PAR )
 5 PONTO_VIRG ;
-Tokens: 25 Erros lexicais: 0
+Tokens: 25 | Erros lexicais: 0
