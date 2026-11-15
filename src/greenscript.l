@@ -32,7 +32,7 @@ ALFANUM_EXT [a-zA-Z0-9\_\-]
 
 #.*                     { /* Ignora tudo até ao fim da linha */ }
 
- /* 3. Palavras Reservadas */
+
 "LIGAR"                 { print_token("LIGAR", yytext); }
 "DESLIGAR"              { print_token("DESLIGAR", yytext); }
 "ABRIR"                 { print_token("ABRIR", yytext); }
@@ -75,7 +75,6 @@ EST-{LETRA_MAIUS}{2}{ALGARISMO}{2} { print_token("ID_ESTUFA", yytext); }
 
 
 int main(int argc, char **argv) {
-    /* Permite ler de um ficheiro passado por argumento ou do standard input */
     if (argc > 1) {
         FILE *ficheiro = fopen(argv[1], "r");
         if (!ficheiro) {
