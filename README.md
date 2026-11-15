@@ -32,6 +32,8 @@ Compilar o ficheiro lex.yy.c para criar o binário greenscript, ligando a biblio
 
 gcc lex.yy.c -o greenscript -ll
 
+Caso o sistema não encontre a biblioteca -ll, o mesmo comando funciona com -lfl no seu lugar ou nenhum.
+
 Execução e Utilização
 
 O programa greenscript recebe obrigatoriamente como argumento na linha de comandos o caminho relativo ou absoluto para o ficheiro de entrada a analisar.
@@ -51,7 +53,6 @@ Analisar um ficheiro qualquer localizado no sistema:
 Executar com os ficheiros incluídos na pasta testes/:
 
 ./greenscript testes/teste_comandos_simples.txt
-./greenscript testes/teste_operadores.txt
 ./greenscript testes/teste_incorreto1.txt
 
 
